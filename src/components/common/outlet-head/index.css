@@ -1,0 +1,45 @@
+.outlet-head {
+  background-color: var(--bs-white);
+  color: var(--bs-dark);
+  padding: 15px 0px;
+  border: 1px solid #555;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+.outlet-head .breadcrums {
+  display: flex;
+  align-items: center;
+}
+
+.outlet-head .breadcrums a {
+  color: var(--bs-white) !important;
+}
+
+.outlet-head h3 {
+  font-size: 24px !important;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.outlet-head p {
+  font-size: 14px !important;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.outlet-head p span {
+  display: block;
+  width: 4px;
+  height: 1.5px;
+  background-color: var(--bs-white);
+  margin: 0px 10px;
+}
+
+.right-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

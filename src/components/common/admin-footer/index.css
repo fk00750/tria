@@ -1,0 +1,32 @@
+footer {
+  font-size: .875rem;
+  color: var(--text-secondary);
+  border: 1px solid #DDD;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  padding-top: 20px;
+}
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-nav ul li a {
+  padding: 10px 15px;
+  margin-left: 10px;
+  color: var(--text-secondary);
+}
+
+.bottom-nav ul li a:hover {
+  color: var(--text);
+}
